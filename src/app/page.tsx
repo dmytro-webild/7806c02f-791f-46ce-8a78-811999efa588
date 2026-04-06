@@ -108,7 +108,7 @@ export default function LandingPage() {
       features={[
         {
           title: "Advanced Security",          description: "Rest easy with state-of-the-art security, gated access, and continuous professional monitoring.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",            imageAlt: "Security Gate"},
+            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=1",            imageAlt: "Security Gate"},
           items: [
             {
               icon: Lock,
@@ -121,7 +121,7 @@ export default function LandingPage() {
         },
         {
           title: "Logistics Optimized",          description: "Designed for heavy distribution and supply chain efficiency with ample yard space and easy loading.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",            imageAlt: "Warehouse"},
+            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=2",            imageAlt: "Warehouse"},
           items: [
             {
               icon: Truck,
