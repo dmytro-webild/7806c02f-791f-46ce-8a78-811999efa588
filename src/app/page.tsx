@@ -147,7 +147,7 @@ export default function LandingPage() {
           title: "Advanced Security",
           description: "Rest easy with state-of-the-art security, gated access, and continuous professional monitoring.",
           media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=1",
             imageAlt: "Security Gate",
           },
           items: [
@@ -168,7 +168,7 @@ export default function LandingPage() {
           title: "Logistics Optimized",
           description: "Designed for heavy distribution and supply chain efficiency with ample yard space and easy loading.",
           media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg?_wi=1",
             imageAlt: "Warehouse",
           },
           items: [
@@ -182,7 +182,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=2",
           imageAlt: "secure facility gate high tech",
         },
         {
@@ -203,7 +203,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg?_wi=2",
           imageAlt: "spacious modern warehouse interior",
         },
       ]}
