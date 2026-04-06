@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Facilities",
-          id: "features",
-        },
+          name: "Facilities",          id: "features"},
         {
-          name: "Overview",
-          id: "about",
-        },
+          name: "Overview",          id: "about"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Longmeadow Business Estate"
     />
@@ -54,60 +46,37 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Premium Offices, Warehouses & Logistics Space"
       description="Longmeadow Business Estate combines secure facilities, prime location, and professional management to support growing businesses. Clean, accessible, and built for productivity."
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/confident-entrepreneur-satisfied-with-own-success_1163-5474.jpg",
-          alt: "Tenant",
-        },
+          src: "http://img.b2bpic.net/free-photo/confident-entrepreneur-satisfied-with-own-success_1163-5474.jpg",          alt: "Tenant"},
         {
-          src: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1074.jpg",
-          alt: "Tenant",
-        },
+          src: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1074.jpg",          alt: "Tenant"},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
-          alt: "Tenant",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",          alt: "Tenant"},
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-posing_23-2149271087.jpg",
-          alt: "Tenant",
-        },
+          src: "http://img.b2bpic.net/free-photo/medium-shot-smiley-man-posing_23-2149271087.jpg",          alt: "Tenant"},
         {
-          src: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",
-          alt: "Tenant",
-        },
+          src: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",          alt: "Tenant"},
       ]}
       buttons={[
         {
-          text: "Book a Viewing Today",
-          href: "#contact",
-        },
+          text: "Book a Viewing Today",          href: "#contact"},
       ]}
       buttonAnimation="slide-up"
       marqueeItems={[
         {
-          type: "text",
-          text: "24/7 Security",
-        },
+          type: "text",          text: "24/7 Security"},
         {
-          type: "text",
-          text: "High-Speed Fiber",
-        },
+          type: "text",          text: "High-Speed Fiber"},
         {
-          type: "text",
-          text: "Logistics Optimized",
-        },
+          type: "text",          text: "Logistics Optimized"},
         {
-          type: "text",
-          text: "Ample Parking",
-        },
+          type: "text",          text: "Ample Parking"},
         {
-          type: "text",
-          text: "Flexible Leasing",
-        },
+          type: "text",          text: "Flexible Leasing"},
       ]}
     />
   </div>
@@ -119,19 +88,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: ShieldCheck,
-          label: "Security",
-          value: "24/7 Monitored",
-        },
+          label: "Security",          value: "24/7 Monitored"},
         {
           icon: Truck,
-          label: "Accessibility",
-          value: "Direct Access",
-        },
+          label: "Accessibility",          value: "Direct Access"},
         {
           icon: Building,
-          label: "Capacity",
-          value: "Flexible Units",
-        },
+          label: "Capacity",          value: "Flexible Units"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -144,67 +107,43 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Advanced Security",
-          description: "Rest easy with state-of-the-art security, gated access, and continuous professional monitoring.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=1",
-            imageAlt: "Security Gate",
-          },
+          title: "Advanced Security",          description: "Rest easy with state-of-the-art security, gated access, and continuous professional monitoring.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",            imageAlt: "Security Gate"},
           items: [
             {
               icon: Lock,
-              text: "CCTV Surveillance",
-            },
+              text: "CCTV Surveillance"},
             {
               icon: Shield,
-              text: "Gate House",
-            },
+              text: "Gate House"},
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/industrial-park-factory-building-warehouse_1417-1933.jpg",
-          imageAlt: "modern business park aerial view",
+          reverse: false
         },
         {
-          title: "Logistics Optimized",
-          description: "Designed for heavy distribution and supply chain efficiency with ample yard space and easy loading.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg?_wi=1",
-            imageAlt: "Warehouse",
-          },
+          title: "Logistics Optimized",          description: "Designed for heavy distribution and supply chain efficiency with ample yard space and easy loading.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg",            imageAlt: "Warehouse"},
           items: [
             {
               icon: Truck,
-              text: "Loading Docks",
-            },
+              text: "Loading Docks"},
             {
               icon: Box,
-              text: "Storage Solutions",
-            },
+              text: "Storage Solutions"},
           ],
-          reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/park-china_1127-3736.jpg?_wi=2",
-          imageAlt: "secure facility gate high tech",
+          reverse: true
         },
         {
-          title: "Professional Offices",
-          description: "Prestigious corporate spaces that enhance brand perception and support employee well-being.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/football-still-life-with-desk_23-2147827581.jpg",
-            imageAlt: "Office",
-          },
+          title: "Professional Offices",          description: "Prestigious corporate spaces that enhance brand perception and support employee well-being.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/football-still-life-with-desk_23-2147827581.jpg",            imageAlt: "Office"},
           items: [
             {
               icon: Wifi,
-              text: "High-Speed Internet",
-            },
+              text: "High-Speed Internet"},
             {
               icon: Coffee,
-              text: "Lounge Areas",
-            },
+              text: "Lounge Areas"},
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51821.jpg?_wi=2",
-          imageAlt: "spacious modern warehouse interior",
+          reverse: false
         },
       ]}
       title="Facility Highlights"
@@ -217,14 +156,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "LogiChain",
-        "CorporateHub",
-        "DistriGroup",
-        "ModernOffice",
-        "PrimeManaged",
-        "GlobalShipping",
-        "StoragePro",
-      ]}
+        "LogiChain",        "CorporateHub",        "DistriGroup",        "ModernOffice",        "PrimeManaged",        "GlobalShipping",        "StoragePro"]}
       title="Trusted by Growing Brands"
       description="We are proud to partner with industry leaders who value excellence in logistics and professional workspace."
     />
@@ -235,20 +167,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "Is security 24/7?",
-          content: "Yes, our estate features 24/7 professional monitoring and secure gated access.",
-        },
+          id: "1",          title: "Is security 24/7?",          content: "Yes, our estate features 24/7 professional monitoring and secure gated access."},
         {
-          id: "2",
-          title: "What lease terms are available?",
-          content: "We offer flexible leasing options to accommodate various corporate expansion and logistics needs.",
-        },
+          id: "2",          title: "What lease terms are available?",          content: "We offer flexible leasing options to accommodate various corporate expansion and logistics needs."},
         {
-          id: "3",
-          title: "Are amenities included?",
-          content: "The estate includes professional management, ample parking, and common area maintenance for all tenants.",
-        },
+          id: "3",          title: "Are amenities included?",          content: "The estate includes professional management, ample parking, and common area maintenance for all tenants."},
       ]}
       sideTitle="Frequently Asked"
       sideDescription="Get quick answers to common questions about our facilities, services, and management."
@@ -260,8 +183,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Visit Us"
       title="Book a Viewing Today"
       description="Ready to elevate your business footprint? Contact our team to book a professional tour of our available spaces."
@@ -276,42 +198,27 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Location",
-          items: [
+          title: "Location",          items: [
             {
-              label: "Estate Address",
-              href: "#",
-            },
+              label: "Estate Address",              href: "#"},
             {
-              label: "Maps & Directions",
-              href: "#",
-            },
+              label: "Maps & Directions",              href: "#"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#",
-            },
+              label: "About Us",              href: "#"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Use",
-              href: "#",
-            },
+              label: "Terms of Use",              href: "#"},
           ],
         },
       ]}
